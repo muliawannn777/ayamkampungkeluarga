@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ayam Kampung Premium - Peternakan Keluarga | Segar & Alami</title>
+    <meta
+      name="description"
+      content="Ayam kampung asli, dipelihara secara alami. Dijual eceran untuk keluarga dan acara spesial. Ambil langsung di peternakan kami."
+    />
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* CSS akan dipisahkan nanti */
+      :root {
+        --primary: #27ae60;
+        --secondary: #f39c12;
+        --dark: #2c3e50;
+        --light: #ecf0f1;
+      }
+    </style>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <!-- Updated Navbar HTML -->
+    <nav class="navbar">
+      <div class="container">
+        <a href="#" class="logo">Peternakan<span>Keluarga</span></a>
+
+        <!-- Mobile Toggle Button -->
+        <button class="menu-toggle" aria-label="Toggle menu">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Navigation Links -->
+        <div class="nav-links">
+          <a href="#produk">Produk</a>
+          <a href="#keunggulan">Keunggulan</a>
+          <a href="#testimoni">Testimoni</a>
+          <a href="#kontak">Kontak</a>
+          <a href="https://wa.me/6287764016088" class="btn-wa-mobile">
+            <i class="fab fa-whatsapp"></i> Pesan
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <!-- Updated Hero Section -->
+    <section class="hero" style="background-color: #f8f5f0">
+      <!-- Soft beige background -->
+      <div class="container">
+        <div class="hero-content">
+          <h1>
+            <span class="hero-title-line">Ayam Kampung</span>
+            <span class="hero-title-line highlight">Asli & Berkualitas</span>
+          </h1>
+          <p class="hero-subtitle">
+            Dibesarkan secara alami untuk cita rasa autentik
+          </p>
+          <div class="hero-cta">
+            <a href="#produk" class="btn btn-primary">
+              <i class="fas fa-store-alt"></i> Jelajahi Produk
+            </a>
+            <a href="https://wa.me/6287764016088" class="btn btn-secondary">
+              <i class="fab fa-whatsapp"></i> Pesan Langsung
+            </a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="img/ayam.jpg" alt="Ayam Kampung Sehat" loading="lazy" />
+          <div class="image-overlay"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Notification Banner -->
+    <div class="notification soft-notification">
+      <div class="container">
+        <i class="fas fa-info-circle"></i>
+        <p>
+          <strong>Informasi Penting:</strong> Untuk menjaga kualitas, kami
+          melayani pengambilan langsung di lokasi. Silakan hubungi kami untuk
+          konfirmasi stok sebelum datang.
+        </p>
+      </div>
+    </div>
+
+    <!-- Product Section -->
+    <section id="produk" class="product-section">
+      <div class="container">
+        <h2 class="section-title">Pilihan <span>Produk Kami</span></h2>
+
+        <div class="product-cards">
+          <!-- Ayam Hidup -->
+          <div class="product-card">
+            <div class="product-badge">Stok Terbatas</div>
+            <div class="product-icon">
+              <i class="fas fa-kiwi-bird"></i>
+            </div>
+            <h3>Ayam Kampung Hidup</h3>
+            <p class="price">Harga per kilo<br />(Update via WA)</p>
+            <ul class="product-features">
+              <li><i class="fas fa-check-circle"></i> Dijual per kilo</li>
+              <li><i class="fas fa-check-circle"></i> Bisa pilih sendiri</li>
+              <li><i class="fas fa-check-circle"></i> Stok terbatas</li>
+            </ul>
+            <a
+              href="https://wa.me/6287764016088?text=Halo,%20saya%20mau%20tanya%20harga%20ayam%20hidup%20per%20kilo"
+              class="btn-product"
+            >
+              <i class="fab fa-whatsapp"></i> Tanya Harga
+            </a>
+          </div>
+
+          <!-- Ayam Potong -->
+          <div class="product-card featured">
+            <div class="product-badge">Paling Laris</div>
+            <div class="product-icon">
+              <i class="fas fa-drumstick-bite"></i>
+            </div>
+            <h3>Ayam Kampung Potong</h3>
+            <p class="price">Rp75.000<span>/ekor</span></p>
+            <ul class="product-features">
+              <li>
+                <i class="fas fa-check-circle"></i> Sudah bersih & siap masak
+              </li>
+              <li><i class="fas fa-check-circle"></i> Potongan higienis</li>
+              <li><i class="fas fa-check-circle"></i> Bayar penuh di depan</li>
+            </ul>
+            <button class="btn-product btn-featured open-order-modal">
+              <i class="fas fa-shopping-basket"></i> Pesan Sekarang
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Keunggulan -->
+    <section id="keunggulan" class="features-section">
+      <div class="container">
+        <h2 class="section-title">Kenapa Memilih <span>Ayam Kami?</span></h2>
+        <div class="features-grid">
+          <div class="feature-item">
+            <div class="feature-icon">
+              <i class="fas fa-seedling"></i>
+            </div>
+            <h3>Pakan Alami</h3>
+            <p>Diberi makan jagung, dedak, dan umbi-umbian tanpa bahan kimia</p>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon">
+              <i class="fas fa-heartbeat"></i>
+            </div>
+            <h3>Sehat & Berkualitas</h3>
+            <p>Dipelihara dengan baik sehingga daging lebih padat dan gurih</p>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon">
+              <i class="fas fa-award"></i>
+            </div>
+            <h3>Langsung Peternak</h3>
+            <p>Harga lebih murah karena tanpa perantara</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimoni -->
+    <section id="testimoni" class="testimonial-section">
+      <div class="container">
+        <h2 class="section-title">Apa Kata <span>Pelanggan Kami?</span></h2>
+        <div class="testimonial-slider">
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="testimonial-text">
+                "Rasanya jauh berbeda dengan ayam potong biasa, anak-anak jadi
+                lahap makan!"
+              </p>
+              <div class="testimonial-author">
+                <img src="img/cust2.jpeg" alt="Pelanggan" />
+                <div>
+                  <h4>Bu Siti</h4>
+                  <p>Langganan Tetap</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <p class="testimonial-text">
+                "Untuk acara selamatan kemarin, tamu-tamu pada nanya beli dimana
+                ayamnya!"
+              </p>
+              <div class="testimonial-author">
+                <img src="img/cust1.png" alt="Pelanggan" />
+                <div>
+                  <h4>Pak Budi</h4>
+                  <p>Pelanggan Event</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="container">
+        <h2>Siap Memesan Ayam Kampung Berkualitas?</h2>
+        <p>Hubungi kami sekarang via WhatsApp atau kunjungi peternakan kami</p>
+        <div class="cta-buttons">
+          <a href="https://wa.me/6287764016088" class="btn-cta">
+            <i class="fab fa-whatsapp"></i> Pesan via WhatsApp
+          </a>
+          <a href="#kontak" class="btn-cta-outline">
+            <i class="fas fa-map-marker-alt"></i> Lihat Lokasi
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontak & Lokasi -->
+    <section id="kontak" class="contact-section">
+      <div class="container">
+        <h2 class="section-title">Kontak & <span>Lokasi</span></h2>
+        <div class="contact-grid">
+          <!-- Contact Info Column -->
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Telepon/WhatsApp</h3>
+                <a href="https://wa.me/6287764016088" class="contact-link">
+                  <i class="fab fa-whatsapp"></i> 0877-6401-6088
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Alamat Peternakan</h3>
+                <p class="address">
+                  Jl. H.M. Raafi'i Jl. Kemuning Permai Blok. B No. 5, Kel.
+                  Madurjo<br />
+                  Kec. Arut Selatan, Kab. Kotawaringin Barat
+                </p>
+                <a
+                  href="https://maps.google.com?q=Jl.+Peternakan+No.+123,+Desa+Makmur,+Kec.+Sejahtera,+Kab.+Bahagia"
+                  class="btn-map"
+                  target="_blank"
+                >
+                  <i class="fas fa-directions"></i> Buka di Google Maps
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-clock"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Jam Pengambilan</h3>
+                <div class="opening-hours">
+                  <p><span>Senin-Jumat:</span> 08.00 - 14.00 WIB</p>
+                  <p><span>Sabtu-Minggu:</span> Tutup</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Google Maps Column -->
+          <div class="map-container">
+            <div class="contact-map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249.08421672888156!2d111.64117252541972!3d-2.7126690535870703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e08ef9553736dd3%3A0x863451bce265afd1!2sJl.%20Kemuning%20Permai%2C%20Madurejo%2C%20Kec.%20Arut%20Sel.%2C%20Kabupaten%20Kotawaringin%20Barat%2C%20Kalimantan%20Tengah%2074181!5e0!3m2!1sid!2sid!4v1747705627486!5m2!1sid!2sid"
+                allowfullscreen=""
+                loading="lazy"
+                aria-label="Lokasi Peternakan Ayam Kampung Keluarga"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Order Modal -->
+    <div id="orderModal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2>Form Pemesanan Ayam Potong</h2>
+        <form id="orderForm">
+          <div class="form-group">
+            <label for="orderName">Nama Lengkap</label>
+            <input type="text" id="orderName" required />
+          </div>
+
+          <div class="form-group">
+            <label for="orderQty">Jumlah Ekor (@Rp75.000)</label>
+            <input type="number" id="orderQty" min="1" value="1" required />
+          </div>
+
+          <div class="form-group">
+            <label for="orderDate">Tanggal Pengambilan</label>
+            <input
+              type="text"
+              id="orderDate"
+              placeholder="Contoh: 30 Mei 2024"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="orderPhone">Nomor WhatsApp</label>
+            <input
+              type="tel"
+              id="orderPhone"
+              placeholder="0812-3456-7890"
+              required
+            />
+          </div>
+
+          <div class="form-notice">
+            <p>
+              <i class="fas fa-info-circle"></i> Setelah mengisi form, Anda akan
+              diarahkan ke WhatsApp untuk konfirmasi pembayaran.
+            </p>
+          </div>
+
+          <button type="submit" class="btn-submit">
+            <i class="fab fa-whatsapp"></i> Lanjutkan ke WhatsApp
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/6287764016088" class="float-wa">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-about">
+            <h3>Peternakan Keluarga</h3>
+            <p>
+              Menjual ayam kampung berkualitas. Dikelola secara turun-temurun
+              dengan penuh dedikasi.
+            </p>
+          </div>
+
+          <div class="footer-links">
+            <h3>Tautan Cepat</h3>
+            <ul>
+              <li><a href="#produk">Produk</a></li>
+              <li><a href="#keunggulan">Keunggulan</a></li>
+              <li><a href="#testimoni">Testimoni</a></li>
+              <li><a href="#kontak">Kontak</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-social">
+            <h3>Media Sosial</h3>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="https://wa.me/6287764016088"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2025 Peternakan Keluarga. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript (akan dipisah nanti) -->
+    
+    <script>
+  // ========== MOBILE MENU ==========
+  (function initMobileMenu() {
+    const menuToggle = document.querySelector(".menu-toggle");
+    const navLinks = document.querySelector(".nav-links");
+    
+    if (!menuToggle || !navLinks) return;
+
+    // Create close button
+    const closeBtn = document.createElement('div');
+    closeBtn.innerHTML = '<i class="fas fa-times"></i>';
+    closeBtn.classList.add('close-sidebar');
+    navLinks.appendChild(closeBtn);
+
+    const toggleMenu = (shouldOpen) => {
+      const isActive = typeof shouldOpen === 'boolean' ? shouldOpen : navLinks.classList.toggle("active");
+      
+      if (isActive) {
+        navLinks.classList.add("active");
+        document.body.style.overflow = "hidden";
+        closeBtn.style.display = "block";
+        menuToggle.innerHTML = '<i class="fas fa-times"></i>';
+      } else {
+        navLinks.classList.remove("active");
+        document.body.style.overflow = "";
+        closeBtn.style.display = "none";
+        menuToggle.innerHTML = '<i class="fas fa-bars"></i>';
+      }
+    };
+
+    // Menu Toggle
+    menuToggle.addEventListener("click", () => toggleMenu(!navLinks.classList.contains("active")));
+
+    // Close button
+    closeBtn.addEventListener("click", () => toggleMenu(false));
+
+    // Close when clicking links
+    document.querySelectorAll(".nav-links a").forEach((link) => {
+      link.addEventListener("click", () => toggleMenu(false));
+    });
+
+    // Close when clicking outside
+    document.addEventListener("click", (e) => {
+      if (!navLinks.contains(e.target) && e.target !== menuToggle) {
+        toggleMenu(false);
+      }
+    });
+
+    // Close when scrolling
+    window.addEventListener("scroll", () => {
+      if (navLinks.classList.contains("active")) {
+        toggleMenu(false);
+      }
+    });
+  })();
+
+  // ========== SMOOTH SCROLL ==========
+  document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+    anchor.addEventListener("click", function(e) {
+      e.preventDefault();
+
+      const targetId = this.getAttribute("href");
+      const targetElement = document.querySelector(targetId);
+
+      if (targetElement) {
+        targetElement.classList.add("section-pulse");
+        setTimeout(() => {
+          targetElement.classList.remove("section-pulse");
+        }, 1500);
+
+        window.scrollTo({
+          top: targetElement.offsetTop - 80,
+          behavior: "smooth"
+        });
+      }
+    });
+  });
+
+  // ========== ORDER MODAL ==========
+  (function initOrderModal() {
+    const orderModal = document.getElementById("orderModal");
+    const openModalBtn = document.querySelector(".open-order-modal");
+    const closeModalBtn = document.querySelector(".close-modal");
+
+    if (!orderModal || !openModalBtn || !closeModalBtn) return;
+
+    const openModal = () => {
+      orderModal.style.display = "block";
+      document.body.style.overflow = "hidden";
+    };
+
+    const closeModal = () => {
+      orderModal.style.display = "none";
+      document.body.style.overflow = "";
+    };
+
+    openModalBtn.addEventListener("click", openModal);
+    closeModalBtn.addEventListener("click", closeModal);
+
+    window.addEventListener("click", (e) => {
+      if (e.target === orderModal) closeModal();
+    });
+  })();
+
+  // ========== WHATSAPP ORDER FORM ==========
+  (function initOrderForm() {
+    const orderForm = document.getElementById("orderForm");
+    
+    if (!orderForm) return;
+
+    orderForm.addEventListener("submit", (e) => {
+      e.preventDefault();
+
+      const name = document.getElementById("orderName").value.trim();
+      const qty = parseInt(document.getElementById("orderQty").value);
+      const date = document.getElementById("orderDate").value.trim();
+      const phone = document.getElementById("orderPhone").value.trim();
+
+      if (!name || !qty || !date || !phone) {
+        alert("Harap isi semua kolom dengan benar!");
+        return;
+      }
+
+      if (qty < 1) {
+        alert("Jumlah ayam minimal 1 ekor");
+        return;
+      }
+
+      const total = (qty * 75000).toLocaleString("id-ID");
+      const message = `Halo, saya ${name} mau pesan ayam potong dengan detail:\n\n` +
+                     `• Jumlah: ${qty} ekor (@Rp75.000/ekor)\n` +
+                     `• Total: Rp${total}\n` +
+                     `• Tanggal ambil: ${date}\n` +
+                     `• No. HP: ${phone}\n\n` +
+                     `Saya setuju untuk:\n` +
+                     `✓ Bayar penuh sebelum pengambilan\n` +
+                     `✓ Mengambil pesanan di lokasi sesuai jam operasional`;
+
+      window.open(
+        `https://wa.me/6287764016088?text=${encodeURIComponent(message)}`,
+        "_blank"
+      );
+
+      orderForm.reset();
+      document.getElementById("orderModal").style.display = "none";
+    });
+  })();
+</script>
+    
+    <!-- <script>
+      // ========== MOBILE MENU ==========
+      (function initMobileMenu() {
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navLinks = document.querySelector(".nav-links");
+
+        if (!menuToggle || !navLinks) return;
+
+        const toggleMenu = () => {
+          const isActive = navLinks.classList.toggle("active");
+          menuToggle.innerHTML = isActive
+            ? '<i class="fas fa-times"></i>'
+            : '<i class="fas fa-bars"></i>';
+
+          // Toggle body scroll when menu is open
+          document.body.style.overflow = isActive ? "hidden" : "";
+        };
+
+        // Menu Toggle
+        menuToggle.addEventListener("click", toggleMenu);
+
+        // Close when clicking links
+        document.querySelectorAll(".nav-links a").forEach((link) => {
+          link.addEventListener("click", () => {
+            navLinks.classList.remove("active");
+            menuToggle.innerHTML = '<i class="fas fa-bars"></i>';
+            document.body.style.overflow = "";
+          });
+        });
+
+        // Close when scrolling
+        window.addEventListener("scroll", () => {
+          if (navLinks.classList.contains("active")) {
+            toggleMenu();
+          }
+        });
+      })();
+
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+
+          const targetId = this.getAttribute("href");
+          const targetElement = document.querySelector(targetId);
+
+          if (targetElement) {
+            // Add pulse animation to the target section
+            targetElement.classList.add("section-pulse");
+            setTimeout(() => {
+              targetElement.classList.remove("section-pulse");
+            }, 1500);
+
+            // Smooth scroll
+            window.scrollTo({
+              top: targetElement.offsetTop - 80, // Adjust for fixed header
+              behavior: "smooth",
+            });
+          }
+        });
+      });
+
+      // ========== ORDER MODAL ==========
+      (function initOrderModal() {
+        const orderModal = document.getElementById("orderModal");
+        const openModalBtn = document.querySelector(".open-order-modal");
+        const closeModalBtn = document.querySelector(".close-modal");
+
+        if (!orderModal || !openModalBtn || !closeModalBtn) return;
+
+        const openModal = () => {
+          orderModal.style.display = "block";
+          document.body.style.overflow = "hidden";
+        };
+
+        const closeModal = () => {
+          orderModal.style.display = "none";
+          document.body.style.overflow = "";
+        };
+
+        openModalBtn.addEventListener("click", openModal);
+        closeModalBtn.addEventListener("click", closeModal);
+
+        window.addEventListener("click", (e) => {
+          if (e.target === orderModal) closeModal();
+        });
+      })();
+
+      // ========== WHATSAPP ORDER FORM ==========
+      (function initOrderForm() {
+        const orderForm = document.getElementById("orderForm");
+
+        if (!orderForm) return;
+
+        orderForm.addEventListener("submit", (e) => {
+          e.preventDefault();
+
+          // Get form values
+          const name = document.getElementById("orderName").value.trim();
+          const qty = parseInt(document.getElementById("orderQty").value);
+          const date = document.getElementById("orderDate").value.trim();
+          const phone = document.getElementById("orderPhone").value.trim();
+
+          // Validation
+          if (!name || !qty || !date || !phone) {
+            alert("Harap isi semua kolom dengan benar!");
+            return;
+          }
+
+          if (qty < 1) {
+            alert("Jumlah ayam minimal 1 ekor");
+            return;
+          }
+
+          // Format message
+          const total = (qty * 75000).toLocaleString("id-ID");
+          const message = `Halo, saya ${name} mau pesan ayam potong dengan detail:
+
+• Jumlah: ${qty} ekor (@Rp75.000/ekor)
+• Total: Rp${total}
+• Tanggal ambil: ${date}
+• No. HP: ${phone}
+
+Saya setuju untuk:
+✓ Bayar penuh sebelum pengambilan
+✓ Mengambil pesanan di lokasi sesuai jam operasional`;
+
+          // Open WhatsApp
+          window.open(
+            `https://wa.me/6287764016088?text=${encodeURIComponent(message)}`,
+            "_blank"
+          );
+
+          // Reset form
+          orderForm.reset();
+          document.getElementById("orderModal").style.display = "none";
+        });
+      })();
+    </script> -->
+  </body>
+</html>
